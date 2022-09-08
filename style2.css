@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    font-family: 'Courgette', cursive;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,12,0.29735644257703087) 35%, rgba(5,157,109,1) 61%, rgba(185,137,2,0.8575805322128851) 81%, rgba(0,212,255,1) 100%);
+}
+.converter-space{
+    width: 600px;
+    height: 250px;
+    border-radius: 60px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(225, 225, 225, 0.3);
+
+}
+.converter-title{
+    text-align: center;
+    margin: 23px 40px;
+    color: #b98902;
+    padding-top: 30px;
+}
+span{
+    color: #b98902;
+    margin-left: 2px;
+}
+input{
+    height: 30px;
+    text-align: center;
+}
+#input{
+    margin-left: 115px;
+    margin-top: 40px;
+    border: none;
+    background-color: #cacaca;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 5px 0px #b98902;
+
+}
+#result{
+    border: none;
+    background-color: #cacaca;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 5px 0px #b98902;
+
+}
+#inputType, #resultType{
+    width: 166.66px;
+    border-radius: 10px;
+    box-shadow: 5px 0px #b98902;
+    height: 30px;
+    margin-left: 115px;
+    font-family: 'Courgette', cursive;
+    color: #b98902;
+    border: none;
+    background-color: #cacaca;
+
+}
+#resultType{
+    margin-left: 25px;
+}
+button{
+    font-size: larger;
+    color: #b98902;
+    font-family: 'Courgette', cursive;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: #cacaca;
+    box-shadow: 5px 0px #b98902;
+    margin-left: 5px;
+}
+option{
+    text-align: center;
+}
+input::placeholder{
+    font-family: 'Courgette', cursive;
+    color: #b98902;
+
+
+}
+@media (max-width: 600px) {
+    body{
+        margin: 0px;
+        padding: 0px;
+        height: auto;
+        width: 100%;
+    }
+    .converter-space{
+        width: 300px;
+        height: 450px;
+        border: 2px solid #cacaca;
+        border-radius: 60px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: blue;
+    }
+    .converter-title{
+        text-align: center;
+        margin: 13px 0px;
+    }
+    .converter-content{
+       margin-top: 60px;
+       position: absolute;
+    }
+    input{
+        height: 50px;
+        text-align: center;
+        width: 80px;
+        border-radius: 30px;
+    }
+    #input{
+        margin-left: 60px;
+    }
+    #inputType, #resultType{
+        width: 70px;
+        height: 30px;
+        margin-left: 60px;
+        color: #b98902;
+        border-radius: 10px;
+    }
+    #resultType{
+        margin-left: 35px;
+    
+    }
+    
+    button{
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+}
